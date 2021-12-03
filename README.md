@@ -1,6 +1,6 @@
 # IRIS-FHIR-SQLBuilder
 
-##　開始手順
+## 開始手順
 
 1) git clone ＋ ディレクトリ移動
 
