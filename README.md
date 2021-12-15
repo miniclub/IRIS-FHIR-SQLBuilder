@@ -4,10 +4,10 @@
 
 1) git clone ＋ ディレクトリ移動
 
-```
-git clone https://github.com/iijimam/IRIS-FHIR-SQLBuilder.git
-cd IRIS-FHIR-SQLBuilder
-```
+	```
+	git clone https://github.com/iijimam/IRIS-FHIR-SQLBuilder.git
+	cd IRIS-FHIR-SQLBuilder
+	```
 
 2)  IRISのイメージをダウンロードしてロードする
 
@@ -18,8 +18,8 @@ cd IRIS-FHIR-SQLBuilder
 	DLした後、以下実行してイメージをロードします（ダウンロードしたファイル名に合わせて実行例を変更してください）
 
 	```
-	gzip -d irishealth-2022.1.0DEVIH.31.0-docker.tar.gz
-	docker load -i irishealth-2022.1.0DEVIH.31.0-docker.tar
+	gzip -d irishealth-2022.1.0DEVIH.39.0-docker.tar.gz
+	docker load -i irishealth-2022.1.0DEVIH.39.0-docker.tar
 	```
 
 3) docker-compose.ymlの変更
@@ -40,7 +40,7 @@ cd IRIS-FHIR-SQLBuilder
 	./setup.sh
 	```
 
-	5) iris.keyの準備
+5) iris.keyの準備
 
 	コンテナ用iris.keyを以下ディレクトリに置いてください。
 
