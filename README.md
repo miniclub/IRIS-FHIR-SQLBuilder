@@ -65,7 +65,7 @@
 	docker exec -it sqlbuilder bash
 	iris session iris
 	ZN "HSLIB"
-	Do ##class HS.HC.FHIRSQL.Utils.Setup).Setup("/data/fhirdata/")
+	Do ##class(HS.HC.FHIRSQL.Utils.Setup).Setup("/data/fhirdata/")
 	```
 
 
