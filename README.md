@@ -116,7 +116,14 @@
 NameにTranslation名を入力します。Analysis欄に先ほど設定したFHIRリポジトリの設定を選択します。
 「Create Transformation Specification」ボタンをクリックします。
 
-「Edit Transformation Specification xxx」という画面が表示されますので、一覧として必要なFHIRリソース
+「Edit Transformation Specification xxx」という画面が表示されますので、分析するためのカラムとして必要な項目を選択ししてゆきます。
+最終的に「Done」ボタンをクリックし、テーブル構成を決定します。
+
+12)　プロジェクションの設定
+同じく右にある「New」ボタンをクリックします。
+先ほど設定した、FHIRリポジトリ名、Transformation Specification名を選択し、出力するテーブルのパッケージ名を入力、「Launch Projection」ボタンをクリックします。
+
+
 	
 
 	
